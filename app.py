@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="🔄 Unit Converter", layout="centered")
+st.set_page_config(page_title="🔄 Unit Convertor", layout="centered")
 st.markdown("""
     <style>
         .stTextInput, .stSelectbox, .stNumberInput {
@@ -16,7 +16,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🔄 Unit Converter")
+st.title("🔄 Unit Convertor")
 st.write("Convert between different units easily!")
 
 # Unit dictionaries
