@@ -45,7 +45,7 @@ def temperature_converter(value, from_unit, to_unit):
     formula_text = "Custom formula applies"
     return conversions.get((from_unit, to_unit), lambda x: x)(value), formula_text
 
-st.subheader("📏 Unit Converter")
+st.subheader("📏 Unit Convertor")
 unit_type = st.selectbox("Select Unit Type", ["Length", "Weight", "Temperature", "Area", "Time", "Speed", "Volume"])
 value = st.number_input("Enter Value", min_value=0.0, format="%.2f")
 
